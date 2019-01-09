@@ -46,8 +46,4 @@ public class Queue {
 	public Queue() {
 		// TODO Auto-generated constructor stub
 	}
-	
-	public void main(String[] args) {
-		System.out.println(head);
-	}
 }
