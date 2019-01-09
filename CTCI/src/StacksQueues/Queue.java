@@ -35,6 +35,7 @@ public class Queue {
 	}
 	
 	public int remove() {
+		if(head == null) throw new NoSuchElementException();
 		int data = head.data;
 		head = head.next;
 		if(head == null) {
